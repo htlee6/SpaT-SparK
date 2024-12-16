@@ -1,6 +1,4 @@
-# Self-supervised Spatialtemporal Learner for Precipitation Nowcasting
-
-## Description
+# Self-supervised Spatial-temporal Learner for Precipitation Nowcasting
 
 SpaT-SparK is a self-supervised learning model for precipitation nowcasting.
 SpaT-SparK extends SparK to be tailored to nowcasting tasks.
@@ -85,12 +83,18 @@ The monitored results are recorded by [Neptune](https://neptune.ai/), also set u
     --transition linearA
     ```
 
+## Trained Model Weights
+
+| Backbone | Pretrain | Fine-tune|
+|----------|----------|----------|
+| ResNet-18| [Google Drive](https://drive.google.com/file/d/1vv262e_FX562tKLRh7Y6D27BYzzZjKuF/view?usp=sharing) | [Google Drive](https://drive.google.com/file/d/15cs-c5ARaxejxVPP4LK2OX8Qgb3CTlHE/view?usp=sharing) |
+| ResNet-50| [Google Drive](https://drive.google.com/file/d/1vb2zg7WYPqcJLVJSk30pH0EJ70Po_zW0/view?usp=sharing) | - |
 
 ## Acknowledgement
 
 The code is developed based on [SparK](https://github.com/keyu-tian/SparK).
 
-Correspondence: Siamak Mehrkanoon s.mehrkanoon@uu.nl
+Correspondence: Haotian Li, [{h.li2}€{uu.nl}](mailto:) (remove {} and replace € with @)
 
 ## License
 
